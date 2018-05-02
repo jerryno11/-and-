@@ -12,9 +12,9 @@ h2 {
 }
 .select{
   display: inline-block;
-  background-color: yellow;
+  background-color: #ccc;
   padding:50px 30px 50px 30px;
-  border: 5px solid blue;
+
   /* width: 150px;
   height: 150px; */
   text-align: center;
@@ -27,14 +27,13 @@ h2 {
 }
 .bo{
   padding: 10px 700px 10px 50px;
-
-  background-color: green;
+	color: #FFF;
+  background-color: #7D7D7D;
 
 }
 .line,.phone,.technology,.study,.project{
-  margin-top: 1px;
-  margin-bottom: 1px;
-  border: 2px solid green;
+  
+  border: 2px solid #ccc;
 }
 .k{
   display: inline-block;
