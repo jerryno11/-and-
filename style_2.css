@@ -1,0 +1,20 @@
+#center {
+  width: 900px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bo {
+  background-color: lightblue;
+  float: left;
+  padding: 0% 6% 800px 6%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+}
+.sameline {
+  display: inline-block;
+  margin-right: 10%;
+  margin-top: 0px;
+}
