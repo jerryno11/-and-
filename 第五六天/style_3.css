@@ -1,0 +1,41 @@
+#center {
+  width: 900px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 1px;
+}
+h2 {
+  margin: 1px;
+}
+.select{
+  display: inline-block;
+  background-color: #ccc;
+  padding:50px 30px 50px 30px;
+
+  /* width: 150px;
+  height: 150px; */
+  text-align: center;
+  box-sizing: border-box;
+}
+.sameline {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 0px;
+}
+.bo{
+  padding: 10px 700px 10px 50px;
+	color: #FFF;
+  background-color: #7D7D7D;
+
+}
+.line,.phone,.technology,.study,.project{
+  
+  border: 2px solid #ccc;
+}
+.k{
+  display: inline-block;
+
+}
