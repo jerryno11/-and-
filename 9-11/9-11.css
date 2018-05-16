@@ -1,0 +1,380 @@
+body{
+  width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 0;
+}
+.helloworld{
+  margin-top: 0;
+text-align: center;
+  background-image: url(images/前端学院设计图_02.png);
+  background-repeat: no-repeat;
+  height: 900px;
+  position: relative;
+}
+/* .abc{
+  position: relative;
+} */
+h1{
+  position: relative;
+font-size: 40px;
+top: 200px;
+color: white;
+
+}
+.wennzi{
+  margin-top: 250px;
+  color: #afaeac;
+  margin-bottom: 50px;
+}
+.wennzi2{
+  box-sizing: border-box;
+  border: 1px solid #555351;
+  width: 900px;
+  height: 200px;
+margin: 0 auto;
+}
+#creat{
+  color: white;
+}
+.w{
+  color: #afaeac
+}
+.abutton{
+  width: 200px;
+  height: 50px;
+  opacity: 0.5;
+}
+.whitbutton{
+  width: 160px;
+  height: 50px;
+}
+
+.part2{
+  text-align: center;
+  height: 700px;
+  background-color: white;
+}
+.par2content{
+  font-size: 45px;
+}
+.wenben{
+  margin-top: 50px;
+}
+
+.allfourkind{
+  /* margin: 0 auto;
+width: 1300px; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fourkind1{
+
+/* border: 1px solid black; */
+background-image: url(images/前端学院设计图44444_05.png);
+background-repeat: no-repeat;
+
+}
+.fourkind2{
+
+/* border: 1px solid black; */
+background-image: url(images/前端学院设计图44444_08.png);
+background-repeat: no-repeat;
+display: inline-block;
+
+}
+.fourkind3{
+
+/* border: 1px solid black; */
+background-image: url(images/前端学院设计图44444_12.png);
+background-repeat: no-repeat;
+
+}
+.fourkind4{
+
+/* border: 1px solid black; */
+background-image: url('images/前端学院设计图44444_14.png');
+background-repeat: no-repeat;
+
+
+}
+
+.no1{
+
+box-sizing: border-box;
+  padding-left: 0px;
+  width: 600px;
+  height: 200px;
+}
+
+.part3{
+  width: 100%;
+  height: 800px;
+  background-image: url('images/bg2.png');
+}
+
+.part3-first{
+  padding-top: 100px;
+  margin-left: 300px;
+  width: 500px;
+  overflow: inherit;
+}
+.title{
+
+  font-size: 42px;
+
+  line-height: 53px;
+  font-weight: 100;
+  width: 380px;
+  color: white;
+
+}
+.part3-content{
+  color: blue;
+}
+.part3-btn{
+  width: 240px;
+  height: 60px;
+  margin-top: 60px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.part3-btn2{
+  background: transparent;
+  border: 1px solid #555351;
+}
+.part4{
+  width: 100%;
+  margin: 0 auto;
+
+}
+.part4-incloud{
+  margin: 0 auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  width: 1024px;
+}
+.title2{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 130px;
+}
+.part4-content{
+  height: 300px;
+  width: 300px;
+}
+.text{
+  font-size: 20px;
+  font-family: cursive;
+}
+.part5{
+  padding-top: 150px;
+width: 1300px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.part5-img1{
+  /* width:450px; */
+  width: 570px;
+height: 350px;
+}
+.part5-image{
+  width: 305px;
+  height: 350px;
+
+}
+
+.part5-title{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.part5-content{
+  margin-top: 10px;
+  font-size: 15px;
+}
+.part6{
+  /* margin-top: 200px; */
+  margin: 0 auto;
+}
+.part6-title{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 200px;
+
+
+}
+.miaoshu{
+  /* font-size: 20px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 2em; */
+  width: 695px;
+  margin: 35px auto 63px auto;
+  font-size: 18px;
+line-height: 28px;
+  text-align: center;
+color: rgba(20, 20, 20, 0.7);
+}
+.photo-wall {
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.part6-info{
+  /* width: 400px;
+  position: relative;
+  overflow: hidden; */
+  width: 470px;
+  height: 340px;
+  margin-bottom: 30px;
+  position: relative;
+  /* box-shadow: 1px 1px 21px 0px rgba(20, 20, 20, 0.1); */
+/* background-color: #b8b8b8; */
+  /* border-radius: 2px; */
+  overflow: hidden;
+
+}
+.info{
+  /* position: absolute;
+  top: 200px;
+  top: 470px;
+  color: #fff;
+  background: rgba(20, 20, 20, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+transition: top 0.5s; */
+position: absolute;
+top: 470px;
+
+width: 100%;
+height: 100%;
+background: rgba(20, 20, 20, 0.7);
+/* transition: top 0.5s; */
+color: #fff;
+/* z-index: -1; */
+
+}
+.part6-info:hover .info{
+  /* z-index: 2; */
+  top: 0;
+}
+.part7{
+  display: flex;
+}
+.part7-login{
+  margin-top: 100px;
+  width: 470px;
+  height: 560px;
+  border-radius: 2px;
+  color: #fff;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.abj{
+  color: black;
+  /* text-align: center; */
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.text-login{
+  width: 370px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.textarea-field{
+  width: 370px;
+  height: 145;
+  margin-bottom: 30px;
+}
+.button{
+  width: 370px;
+  height: 50px;
+  background-color: black;
+  color: white
+}
+.part7{
+  margin: 0 auto;
+}
+.part7-input{
+  margin: 150px auto auto 150px;;
+
+  width: 400px;
+  height: 400px;
+}
+.phonecall{
+    margin: 0;
+}
+.fangshi{
+  display: flex;
+}
+.phonecall1{
+  position: relative;
+  top:20px;
+  width: 25px;
+  height: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('images/MapIcon.png');
+}
+.phonecall2{
+top:20px;
+  width: 25px;
+  height: 25px;
+  background-position: center center;
+  background-image: url('images/PhoneIcon.png');
+  background-repeat: no-repeat;
+}
+.phonecall3{
+top:20px;
+  display: inline-block;
+width: 25px;
+height: 25px;
+background-position: center center;
+  background-image: url('images/MailIcon.png');
+  background-repeat: no-repeat;
+}
+.part8{
+  /* width: 1600px;
+  height: 450px; */
+  width: 100%;
+  background-color: black;
+}
+.footer{
+  margin: 0 auto;
+
+  /* display: flex;
+  flex-wrap: wrap;
+justify-content: space-between; */
+display: flex;
+justify-content: space-between;
+width: 800px;
+padding-top: 100px;
+
+}
+.part8-first {
+  color: #535353;
+  width: 300px;
+  height: 300px
+}
+.part8-first h3{
+  color: white
+}
+li{
+  list-style-type: none;
+  font-size: 20px;
+}
