@@ -1,0 +1,53 @@
+html {
+  font-size: 20px;
+}
+body {
+  background: lightblue;
+  font-family: serif;
+  text-indent: 5px;
+   line-height: 10px
+}
+h1 {
+  color: green;
+  font-size: 32px;
+  text-align:center;
+text-shadow: 2px 2px #ff0000;
+  background-color: white;
+  padding: 20px;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525084183739&di=b1ec58810fe96a7b0d84f03613371bf5&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201508%2F09%2F20150809165950_tenHv.jpeg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: 45% center;
+}
+.avi {
+ text-decoration: underline;
+  font-family: cursive;
+
+}
+h3 {
+  color: blue;
+}
+h3 strong{
+  color: orange;
+}
+p {
+
+  font-weight: 3px;
+  font-style: italic;
+}
+
+ul,dl {
+  line-height:20px;
+  list-style-type: square;
+}
+
+a{
+  text-decoration: line-through;
+
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: yellow;
+}
