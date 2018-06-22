@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+    <style>
+    .box {
+      border: 1px solid #d9d9d9;
+      padding: 10px;
+      /* overflow: scroll; */
+    }
+    p {
+      word-break: break-all;
+    }
+    </style>
+</head>
+<body>
+    <input id="dec-number" type="number" placeholder="输入一个十进制非负整数">
+    <input id="bin-bit" type="number" placeholder="输入转化后二进制数字位数">
+    <button id="trans-btn">转化为二进制</button>
+    <p id="result">运算结果</p>
+    <script>
+    var two = document.querySelector('#dec-number')
+    var button = document.querySelector('#trans-btn')
+    var word = document.querySelector('#result')
+    var bin = document.querySelector('#bin-bit')
+function dec2bin(decNumber,binbit) {
+    // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
+
+
+    if(decNumber<0){
+      console.log('false')
+    }else{
+      var s = []
+
+      while(decNumber > 0){
+    var b = decNumber % 2
+    s.unshift(b)
+    decNumber = Math.floor(decNumber / 2) }
+  }
+    s = s.join('')
+    var binlength = binbit - s.length
+    if(binlength<0){
+      console.log('false')
+    }else{
+      for(i = 0;i<binlength;i++){
+        var zero = '0'
+        s = zero + s
+      }
+    }
+    word.textContent = '运算结果： '+s
+
+}
+
+button.addEventListener('click',function(){
+  dec2bin(two.value,bin.value)
+})
+
+    </script>
+
+    <div class="box">
+      <button class="loop-button">关于3</button>
+      <p id="threeput"></p>
+      <script>
+      var threeput = document.querySelector('#threeput')
+      var loop = document.querySelector('.loop-button')
+      loop.addEventListener('click',function(){
+        var three = [];
+        for(i = 1;i<=100;i++){
+          if(i%3 == 0 || /3/.test(i)){
+            three.push('pa')
+          }else{
+            three.push(i)
+          }
+        }
+
+        threeput.textContent = three.join('')
+      })
+      </script>
+    </div>
+
+    <div class="box">
+      <button id="kii">99惩罚</button>
+      <p id="muple2"></p>
+      <script>
+      var kii = document.querySelector('#kii')
+      var muple2 = document.querySelector('#muple2')
+      kii.addEventListener('click',function(){
+        var k = ''
+        for (var i = 1; i <= 9; i++) {
+          for (var j = 1; j <= i; j++) {
+           k += i+'*'+j+'='+i*j
+          }
+          console.log(k)
+        }
+        muple2.textContent = k
+      })
+
+      </script>
+    </div>
+</body>
+</html>
